@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+회원 <span th:text="${mode}"></span> 확인을 위해 아래 링크를 클릭해 주세요.
+ <br><br>
+<a th:href="${url}"><span th:text="${mode}"></span> 확인</a>
+</body>
+</html>
